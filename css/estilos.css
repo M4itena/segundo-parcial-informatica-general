@@ -51,6 +51,13 @@ body{
     }
 /*MAIN*/
 /*Imagenes*/
+.imagenescentrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+}
 /*PARRAFOS, TITULOS,LISTAS, ETC*/
     p ,h1 ,h2 ,h3 ,ul ,ol ,q{
         text-align: center;
