@@ -1,0 +1,81 @@
+/*SELECTOR UNIVERSAL*/
+*{
+    box-sizing: border-box;
+}
+/*BODY*/
+body{
+    background-image: url(../imagenes/fondo.png);
+}
+/*CONTENEDOR*/
+#contenedor{
+    background-color: rgb(104, 159, 231);
+    margin: 5rem;
+    padding: 5rem;
+}
+/*ENCABEZADO*/
+.encabezado{
+    background-color: rgb(138, 177, 228);
+    padding: 0.4rem 1rem;
+}
+/*NAVEGADOR*/
+    .navegador ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    .navegador li{
+        display: inline-block;
+    }
+    .navegador a{
+        font-size: 1rem;
+    	line-height: 2.2rem;
+        padding: 0.4rem 1rem;
+        text-align: center;
+        text-decoration: none;
+    }
+    .navegador a:link {
+        background-color: rgb(104, 159, 231);
+        color: rgb(2, 9, 71);
+    }
+    .navegador a:visited{
+        background-color:rgb(90, 137, 199);
+        color: rgb(34, 3, 92);
+    }
+    .navegador a:hover{
+        background-color:rgb(52, 81, 119);
+        color: rgb(104, 159, 231);
+    }
+    .navegador a:active{
+        background-color:rgb(31, 49, 71);
+        color:  rgb(169, 201, 241);
+    }
+/*MAIN*/
+/*Imagenes*/
+/*PARRAFOS, TITULOS,LISTAS, ETC*/
+    p ,h1 ,h2 ,h3 ,ul ,ol ,q{
+        text-align: center;
+        color: rgb(11, 55, 112);
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size:1rem;
+    }
+    .listauno ul,h3{
+        text-align: left;
+    }
+/*PIE DE PAGINA*/
+.piedepagina{
+    background-color: rgb(138, 177, 228);
+    padding: 2rem 3rem;
+    margin: 1rem;
+}
+.piedepagina address{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(11, 55, 112);
+}
