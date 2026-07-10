@@ -5,6 +5,9 @@
         <meta charset="UTF-8">
         <title>Hola Mundo</title>
         <link href="./css/estilos.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
     <!--BODY-->
     <body>
@@ -12,8 +15,8 @@
             <!--ENCABEZADO Y NAV-->
             <header class="encabezado">
                 <nav class="navegador">
-                    <h1>Casey Reas</h1>
-                    <p>Código, sistemas y arte generativo contemporáneo</p>
+                    <h1>Casey Reas - Código, sistemas y arte generativo contemporáneo</h1>
+                    <p><q><strong>Una obra puede ser definida como un sistema y ejecutada en múltiples formas.</strong></q> — Casey Reas</p>
                     <ul>
                         <li><a href="index.html">¿Quien es Casey Reas?</a></li>
                         <li><a href="uno.html">Obras</a></li>
@@ -26,10 +29,6 @@
                 <section>
                     <!--PRIMER ARTICULO-->
                     <article>
-                        <p>“Una obra puede ser definida como un sistema y ejecutada en múltiples formas.” — Casey Reas</p>
-                    </article>
-                     <!--SEGUNDO ARTICULO-->
-                    <article>
                         <h2>Arte generativo y pensamiento computacional</h2>
                         <p>Casey Reas es un artista, programador y educador reconocido por su trabajo en el desarrollo del arte generativo. Su práctica se basa en la creación de sistemas que, a partir de reglas definidas, producen imágenes y comportamientos visuales autónomos. Este enfoque desplaza la idea tradicional de obra terminada hacia procesos abiertos y en constante evolución. Su trabajo se centra en la relación entre instrucciones, ejecución y resultado. A través del uso del código, construye estructuras que permiten explorar variaciones infinitas dentro de un mismo sistema. De este modo, cada ejecución puede dar lugar a una experiencia visual distinta. Además de su producción artística, ha tenido un rol clave en la difusión del pensamiento computacional dentro del arte contemporáneo. Su enfoque promueve la comprensión del código como un medio expresivo, accesible y profundamente creativo.</p>
                         <img class="imagenescentrado" src="./imagenes/reas.jpg" alt="" width="500" height="350">
@@ -41,12 +40,21 @@
                         <img class="imagenescentrado" src="./imagenes/reas-1.jpg" alt="" width="500" height="350">
                     </article>
                 </section>
+                <!--DATOS CURIOSOS-->
+                <section>
+                    <article>
+                        <h1>Datos Curiosos de Casey Reas</h1>
+                        <p>Toca el boton para obtener un dato random sobre el artista</p>
+                        <p id="mostrarDato"></p>
+                        <button id="selecionadorDatos">Dato Curioso</button>
+                    </article>
+                </section>
             </main>
             <!--PIE DE PAGINA-->
             <footer class="piedepagina">
                 <address>Para contactarse escribir a <a href="mailto:casey@artedigital.com">casey@artedigital.com</a></address>
             </footer>
         </div>
-        <script src="./js/script.js"></script>
+        <script src="./js/datosCuriosos.js"></script>
     </body>
 </html>
