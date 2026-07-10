@@ -56,17 +56,38 @@ body{
 /*MAIN*/
 section{
     background-color: rgb(138, 177, 228);
-    padding: 3rem 4rem;
-    margin: 2rem;
+    padding: 1em;
+    margin: 1em;
     border-radius: 1.5rem;
+}
+article{
+   	padding: 1em;
+	margin: 1em;
+}
+/*Columnas de la pagina 1*/
+.columnas{
+    display: flex;
+}
+/*Columnas de la pagina 2*/
+.columnasPagDos{
+    display: flex;
+}
+.articuloGrande{
+    width: 65%;
+}
+.articuloChico{
+    width: 35%;
 }
 /*Imagenes*/
 .imagenescentrado{
+    width: 300px;
+    height: 150;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     padding: auto;
+    border-radius: 0.5rem;
 }
 /*PARRAFOS, TITULOS,LISTAS, ETC*/
     p ,h1 ,h2 ,h3 ,ul ,ol ,q{
