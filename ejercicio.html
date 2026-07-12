@@ -28,8 +28,37 @@
             <main>
                 <section>
                     <article>
-                     <h1>Ejercicio</h1>
-                     <p>En esta pagina puedes simular que eres el gestionador de las obras de Reas. Toca el boton para continuar:</p>
+                        <h1>Simulador de gestionador de instalaciones</h1>
+                        <p>En esta pagina puedes simular que gestionas la producción de instalaciones interactivas del estudio artístico de Casey Reas.</p>
+                        <p>Se deberán ingresar los datos de la cantidad de instalaciones a producir y, por cada instalación, su nombre, la cantidad de personas necesarias para el trabajo y la cantidad de días estimados de producción. Ingresar también la cantidad de horas por día que trabajan las personas y el valor del honorario por hora que cobran.</p>
+                        <p>Por favor rellene el formulario para participar de la dinamica.</p>
+                        <!--FORMULARIO-->
+                        <form>
+                            <fieldset>
+                                <label for="cantidadInstalaciones">Cantidad de instalaciones a producir: </label>
+                                <input type="number" name="num1" id="num1" placeholder="Ingrese un numero">
+                                <br>
+                                <!--por cada instalacion lo mejor seria usar un array de objetos y que esta info e guarde ahi, y hacer un que cse active si tiene el mismo numero de instalaciones que se agrego en el input de arriva-->
+                                <label for="nombreInstalacion">Nombre por cada instalación: </label>
+                                <input type="text" name="nombInstalacion" id="nombInstalacion" placeholder="Ingerese un numero por cada instalación">
+                                <br>
+                            </fieldset>
+                            <fieldset>
+                                <label for="cantidadTrabajadores">Cantidad de personas necesarias para el trabajo: </label>
+                                <input type="number" name="numTrabjadores" id="numTrabjadores" placeholder="Ingrese un numero">
+                                <br>
+                                <label for="cantidadPerHora">Cantidad de horario laboral: </label>
+                                <input type="number" name="horasTrabajo" id="horasTrabajo" placeholder="Ingrese un numero">
+                                <br>
+                                <label for="valorHonorario">Valor honorario: </label>
+                                <input type="number" name="numHonorario" id="numHonorario" placeholder="Ingrese una cantidad">
+                                <br>
+                                <label for="diasProduccion">Cantidad de días estimados de producción</label>
+                                <input type="number" name="diasEstimados" id="diasEstimados" placeholder="Ingrese un estimado"> 
+                            </fieldset>
+                            <button type="submit">Calcular</button>
+                            <button></button>
+                        </form>
                     </article>
                 </section>
             </main>

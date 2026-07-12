@@ -1,2 +1,3 @@
-# segundo-parcial-informatica-general
-
+Maitena Achigar
+Segundo Parcial - Informática General 
+Artes Multimediales - UNA

@@ -40,6 +40,7 @@ body{
     .navegador a:link {
         background-color: rgb(104, 159, 231);
         color: rgb(2, 9, 71);
+        border-radius: 1.5rem;
     }
     .navegador a:visited{
         background-color:rgb(90, 137, 199);
