@@ -118,7 +118,32 @@ button{
     padding: 0.5rem;
     border-radius: 1.5rem;
 }
-
+/*Botones formulario*/
+.botonesFormulario{
+    display: flex;
+}
+/*Formualrio*/
+form{
+    background-color: rgb(104, 159, 231);
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+fieldset{
+    background-color: rgb(138, 177, 228);
+    color: rgb(11, 55, 112);
+    border: 0;
+    margin: 0.5rem;
+    border-radius: 1.5rem;
+}
+input{
+    background-color:rgb(104, 159, 231);
+    border: 0;
+    border-radius: 1.5rem;
+}
+input::placeholder{
+    color: rgb(62, 84, 114);
+}
 /*PIE DE PAGINA*/
 .piedepagina{
     background-color: rgb(138, 177, 228);
